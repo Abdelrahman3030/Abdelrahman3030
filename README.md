@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>AI / Machine Learning Engineer</b><br>
-  Deep Learning • MRI Reconstruction • Data Science • Computer Vision
+  Deep Learning • Machine Learning • Data Science • Computer Vision
 </p>
 
 <p align="center">
