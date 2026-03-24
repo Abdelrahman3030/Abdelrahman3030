@@ -1,166 +1,119 @@
-<h1 align="center">Hi, I'm Abdelrahman 👋</h1>
+<h1 align="center">Abdelrahman Ahmed</h1>
 
 <p align="center">
-  <b>AI / Machine Learning Engineer</b><br>
-  Deep Learning • Machine Learning • Data Science • Computer Vision
+  <b>Junior ML Engineer · Data Scientist</b><br>
+  Machine Learning · Deep Learning · Computer Vision · Data Science
 </p>
 
 <p align="center">
-  <a href="mailto:abdelrahmanahmed1702@gmail.com">Email</a> •
-  <a href="https://www.linkedin.com/in/abdelrahman-ahmed-45102b251">LinkedIn</a> •
-  <a href="https://github.com/Abdelrahman3030">GitHub</a>
+  <a href="mailto:abdelrahmanahmed1702@gmail.com">📧 Email</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/abdelrahman-ahmed-45102b251">💼 LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://github.com/Abdelrahman3030">🐙 GitHub</a>
 </p>
 
 ---
 
-## 🧠 About Me
+## About Me
 
-I'm an **AI/ML Engineer and Data Scientist** who builds real, end-to-end AI systems — not just Jupyter notebooks.  
-My work combines **deep learning**, **computer vision**, **MRI reconstruction**, and **full-stack deployment**.
+Junior ML Engineer and Data Scientist with a B.Sc. in Computer and Data Science from Alexandria University. I focus on building and deploying practical ML systems — from research-grade MRI reconstruction pipelines to real-time computer vision applications — turning them into real, usable software.
 
-- 🎓 B.Sc. in **Computer and Data Science**, Alexandria University — *GPA: 3.29 (Very Good)*  
-- 🎓 Graduate of **Samsung Innovation Campus – AI & Data Science Track**  
-- 🧪 Hands-on experience across ML, DL, vision, NLP & analytics  
-- 👥 Worked on serious team projects (up to 8 members)  
-- 🚀 I love taking complex research ideas and turning them into **working software**  
-- 📍 Based in Egypt, open to remote/relocation opportunities
+- 🎓 B.Sc. Computer and Data Science — Alexandria University (GPA: 3.29)
+- 🎓 Samsung Innovation Campus — AI & Data Science Program
+- 🔬 Graduation project: MRI reconstruction using untrained neural networks (Deep Image Prior, ConvDecoder)
+- 👥 Led an 8-member team on a research-grade deep learning project
+- 📍 Based in Egypt · Open to remote roles globally and relocation
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 1️⃣ MRI Acceleration Using Untrained Neural Networks  
-**Repo:** [MRI-Acceleration-Using-Untrained-Neural-Network](https://github.com/Abdelrahman3030/MRI-Acceleration-Using-Untrained-Neural-Network)
+### 🧠 MRI Acceleration Using Untrained Neural Networks
+> Graduation Project — Alexandria University
 
-A complete research-grade system implementing:
+Research-grade MRI reconstruction pipeline using Deep Image Prior, Deep Decoder, and ConvDecoder architectures on the FastMRI dataset.
 
-- **Deep Image Prior (DIP)**  
-- **Deep Decoder (DD)**  
-- **ConvDecoder** (main model)  
-- Multi-coil MRI reconstruction, compressed sensing  
-- **NUFFT** for non-Cartesian trajectories  
-- Multi-loss learning  
-- Domain-specific initialization for **10× faster reconstruction**
+**Results vs baseline U-Net:**
+- ⚡ 87% reduction in reconstruction time
+- 📈 +3.4 dB improvement in PSNR
+- 📈 +0.09 improvement in SSIM
+- ConvDecoder outperforms DIP, Deep Decoder, TV, and ENLIVE
 
-**Results:**
-
-- +3.4 dB increase in **PSNR**  
-- +0.09 improvement in **SSIM**  
-- Competitive with trained **U-Net / VarNet** on FastMRI  
-- ConvDecoder outperforms DIP, DD, TV, and ENLIVE
-
-**Full web platform included:**
-
-- MRI upload → async reconstruction via email  
-- React front-end (dark/light mode, canvas viewer)  
-- Flask backend + optional Colab compute  
+**System includes:**
+- Multi-coil MRI reconstruction with compressed sensing
+- ConvDecoder-based architecture with domain-specific initialization
+- Full-stack system (React + Flask) for MRI upload and reconstruction
 - Extra tools: denoising, super-resolution, inpainting
 
-📄 Full documentation available in `Docs/MRI Reconstruction Documentation.pdf`.
+🔗 [View Repository](https://github.com/Abdelrahman3030/MRI-Acceleration-Using-Untrained-Neural-Network)
 
 ---
 
-### 2️⃣ Real-Time Football Analytics (YOLOv11)
-**Repo:** [RealTime-Football-Analysis-using-YoloV11](https://github.com/Abdelrahman3030/RealTime-Football-Analysis-using-YoloV11)
-YOLOv11-based system for:
+### ⚽ Real-Time Football Analytics (YOLOv11)
 
-- Player detection  
-- Tracking  
-- Speed estimation  
-- Team possession analysis  
+YOLOv11-based pipeline for real-time match analysis:
+- Player detection and tracking
+- Speed estimation
+- Team possession analysis
+- Deployed via Streamlit for live browser-based insights
 
-Deployed via **Streamlit** for real-time match analytics with clean UI.
-
----
-
-### 3️⃣ Chest X-Ray Pneumonia Detection (GUI App)
-**Repo:** [Chest-X-Ray-Pneumonia-Detection-Using-CNN-and-DNN-with-a-GUI](https://github.com/Abdelrahman3030/Chest-X-Ray-Pneumonia-Detection-Using-CNN-and-DNN-with-a-GUI)
-- CNN model achieving **94.25% accuracy**  
-- Tkinter desktop app  
-- Loads X-ray → predicts → visualizes
-
-Simple, clean, and practical.
+🔗 [View Repository](https://github.com/Abdelrahman3030/RealTime-Football-Analysis-using-YoloV11)
 
 ---
 
-### 4️⃣ Customer Segmentation with KMeans + Power BI
-- Built clustering model (KMeans)  
-- Created a **Power BI dashboard** for:
-  - behavioral insights  
-  - segmentation  
-  - marketing analytics  
+### 🫁 Chest X-Ray Pneumonia Detection
 
-Business-focused, actionable insights for stakeholders.
+CNN binary classifier for pneumonia detection from chest X-rays:
+- **94.25% test accuracy**
+- Tkinter desktop GUI — load X-ray, get prediction, visualize results
+- Accessible to non-technical users
 
----
-
-## 🛠 Skills & Technologies
-
-### **Programming**
-`Python` · `SQL` · `Java`(basic) · `R`(basic)
-
-### **Machine Learning**
-Regression · SVM · Decision Trees · Random Forest ·  
-Gradient Boosting · KMeans · PCA · t-SNE · Feature Engineering
-
-### **Deep Learning**
-CNNs · RNNs · Transformers · Transfer Learning ·  
-Hyperparameter Tuning · Model Optimization  
-
-Frameworks:  
-`PyTorch` · `TensorFlow` · `Keras` · `Scikit-learn`
-
-### **Computer Vision**
-`OpenCV` · `YOLO` · Segmentation · Object Detection  
-Image Processing · Super-resolution · Denoising · Inpainting
-
-### **Data Science / Analytics**
-Data Cleaning · Wrangling · Statistical Analysis ·  
-Visualization (`Power BI`, `Matplotlib`, `Seaborn`, `Plotly`)
-
-### **Medical Imaging**
-FastMRI · Multi-coil MRI · NUFFT · Compressed Sensing ·  
-Untrained Neural Priors (DIP, DD, ConvDecoder)
-
-### **Web / Deployment**
-`ReactJS` · `Flask` · `FastAPI` · `Streamlit` ·  
-REST APIs · Git/GitHub · Docker (entry level)
+🔗 [View Repository](https://github.com/Abdelrahman3030/Chest-X-Ray-Pneumonia-Detection-Using-CNN-and-DNN-with-a-GUI)
 
 ---
 
-## 💼 Experience
+### 📊 Customer Segmentation with KMeans & Power BI
 
-### **My-Communication — Data Analysis Trainee**  
-*Alexandria, Egypt (07/2024 – 09/2024)*  
-- Built Power BI dashboards  
-- Used Python + SQL for insights  
-- Delivered data-driven marketing improvements  
-
-### **My-Communication & Digital Hub — AI Trainee**  
-*Alexandria, Egypt (03/2023 – 06/2023)*  
-- Built CV & NLP models using TensorFlow/Keras  
-- Achieved ~92% binary and ~88% multi-class accuracy  
-- Improved models with transfer learning & hyperparameter tuning
+End-to-end customer analytics pipeline:
+- KMeans clustering to identify behavioral segments
+- Interactive Power BI dashboard for stakeholder-facing insights
+- Business-focused output with actionable marketing recommendations
 
 ---
 
-## 🌱 Currently Learning
-- Better MLOps practices (CI/CD, deployment)  
-- Improving English fluency for global roles  
+## Skills
+
+| Area | Technologies |
+|------|-------------|
+| **Machine Learning** | Supervised & Unsupervised Learning, SVM, Decision Trees, Random Forest, Gradient Boosting, Feature Engineering, Hyperparameter Tuning, Cross-Validation |
+| **Deep Learning & CV** | CNNs, RNNs, Transfer Learning, Image Classification, Object Detection (YOLO), OpenCV, Data Augmentation |
+| **NLP** | Text Preprocessing, Sentiment Analysis, Text Classification |
+| **Data Science** | EDA, Statistical Analysis, PCA, Clustering (KMeans, DBSCAN), Power BI, Matplotlib, Seaborn, Plotly |
+| **Deployment & MLOps** | FastAPI, Flask, Streamlit, Docker, AWS (EC2, S3), REST APIs |
+| **Frameworks & Tools** | PyTorch, TensorFlow, Keras, Scikit-learn, Pandas, NumPy, Git/GitHub, Jupyter |
+| **Programming** | Python, SQL, Bash/Shell, Java (basic), R (basic) |
 
 ---
 
-## 🎯 Goals
-- Become a strong AI/ML Engineer in a top global team  
-- Build impactful real-world AI products  
-- Continue my academic journey and start a Master's degree soon 
+## Experience
+
+**Data Analysis Trainee — My-Communication** *(Jul 2024 – Sep 2024)*
+Built Power BI dashboards and predictive analytics tools using Python and SQL, delivering data-driven insights for the marketing team.
+
+**AI Trainee — My-Communication & Digital Hub** *(Mar 2023 – Jun 2023)*
+Built computer vision and NLP models with TensorFlow/Keras — 92% binary and 88% multi-class accuracy using transfer learning and hyperparameter tuning.
 
 ---
 
-## 📬 Contact Me
+## Currently Working On
 
-- 📧 Email: **abdelrahmanahmed1702@gmail.com**
-- 🔗 LinkedIn: [linkedin.com/in/abdelrahman-ahmed-45102b251](https://www.linkedin.com/in/abdelrahman-ahmed-45102b251)
-- 🐙 GitHub: [github.com/Abdelrahman3030](https://github.com/Abdelrahman3030)
+> This section updates as I build — check back regularly.
 
-I'm always open to opportunities, collaborations, and interesting AI discussions 😊
+- [ ] Building end-to-end ML pipeline with FastAPI, Docker, and MLflow
+- [ ] Participating in Kaggle competitions to improve modeling skills
+
+---
+
+## Contact
+
+📧 abdelrahmanahmed1702@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/abdelrahman-ahmed-45102b251)
